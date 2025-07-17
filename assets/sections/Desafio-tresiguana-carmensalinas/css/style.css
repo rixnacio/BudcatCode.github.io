@@ -1,0 +1,126 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+.titulo {
+  display: flex;
+  justify-content: center;
+  height: 73px;
+  font-size: 25px;
+  top: 300px;
+}
+
+.letras-titulo {
+  position: relative;
+  top: 10px;
+  font-weight: 500;
+}
+
+.imagen-header img { 
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* info */
+.info {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  align-items: center;
+  height: 348px;
+}
+
+.texto-info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  font-size: 16px;
+  width: 475px;
+  height: 197px;
+  
+}
+
+.imagen-lateral img {
+  height: 237px;
+  border-radius: 5px;
+}
+
+/* Características */
+.caracteristicas {
+  background-color: #1E1A13;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.caracteristicas h2 {
+  margin-bottom: 30px;
+  font-size: 40px;
+  
+}
+
+.iconos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+.icono {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  gap: 16px;
+  
+}
+
+.icono img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.icono p {
+  font-size: 20px;
+  
+
+}
+
+i {
+  font-size: 60px;
+}
+
+/* Galeria de iguanas */
+
+.galeria-iguanas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  gap: 16px;
+  
+}
+
+.galeria-iguanas img {
+margin: 71px 0px;
+width: auto;
+height: 202px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #1E1A13;
+  padding: 40px 20px;
+  text-align: center;
+  
+}
+
+footer a {
+
+  color: white;
+}

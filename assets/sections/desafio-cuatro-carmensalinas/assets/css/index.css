@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+.bg-color-cupon {
+    background-color: #28A745;
+
+}
+
+.card-title {
+    color: #212529;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.card-text {
+    color: #707070;
+    margin: 0;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.card-textdirection {
+
+    color: #707070;
+    font-weight: 300;
+    font-size: 16px;
+
+}
+
+.precios {
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    align-items: end;
+}
+
+.gris {
+    color: #707070;
+    font-size: 16px;
+
+
+}
+
+.verde {
+    color: #28A745;
+    font-size: 20px;
+
+}
+
+.precios p {
+    margin: 0;
+}
+
+.formulario-verde {
+
+    background-color: #28A745;
+    color: white;
+    text-align: center;
+    padding: 100px;
+    margin-top: -100;
+    
+
+
+}
